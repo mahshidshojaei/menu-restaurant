@@ -4,7 +4,7 @@ const datas = [
           title: "Buttermilk Pancakes",
           category: "breakfast",
           price: 5.99,
-          img: "images/1.png",
+          img: "images/b1.png",
           desc: "Delicious pancakes made with fresh buttermilk, topped with warm maple syrup and a generous serving of fresh berries. A classic breakfast favorite to start your day right.",
         },
         {
@@ -12,7 +12,7 @@ const datas = [
           title: "Diner Double",
           category: "lunch",
           price: 9.99,
-          img: "images/2.png",
+          img: "images/1.png",
           desc: "A hearty diner-style double cheeseburger, pickles, onions, and a side of crispy golden fries. Comfort food at its finest.",
         },
         {
@@ -20,15 +20,15 @@ const datas = [
           title: "Godzilla Milkshake",
           category: "shakes",
           price: 6.99,
-          img: "images/3.png",
-          desc: "A cream, and colorful sprinkles. Sweet, cold, and monstrous!",
+          img: "images/sh3.png",
+          desc: "A massive milkshake served in a tall glass, loaded with creamy ice cream, chocolate sauce, whipped cream, and colorful sprinkles. Sweet, cold, and monstrous!",
         },
         {
           id: 4,
           title: "Country Delight",
           category: "breakfast",
           price: 8.99,
-          img: "images/4.png",
+          img: "images/b2.png",
           desc: "A wholesome country-style breakfast with farm-fresh scrambled eggs, crispy toast with butter, homemade jam, and a touch of love from the countryside.",
         },
         {
@@ -44,9 +44,42 @@ const datas = [
           title: "Oreo Dream",
           category: "shakes",
           price: 7.99,
+          img: "images/sh2.png",
+          desc: "A creamy milkshake blended with Oreo cookies, topped with chocolate drizzle, whipped cream, and cookie crumbles. It’s literally dessert in a glass.",
+        },
+        {
+          id: 7,
+          title: "Avocado Toast",
+          category: "breakfast",
+          price: 7.50,
+          img: "images/b3.png",
+          desc: "Toasted artisan bread topped with smashed ripe avocado, cherry tomatoes, and a sprinkle of sea salt and chili flakes. A healthy and tasty way to start your day.",
+        },
+        {
+          id: 8,
+          title: "Caesar Salad",
+          category: "lunch",
+          price: 8.75,
           img: "images/6.png",
-          desc: "A creamy milkshake blended with umbles. It’s literally dessert in a glass.",
+          desc: "Fresh romaine lettuce tossed with creamy Caesar dressing, crunchy croutons, and shaved Parmesan cheese. A classic salad that never disappoints.",
+        },
+        {
+          id: 9,
+          title: "Berry Blast Smoothie",
+          category: "shakes",
+          price: 5.99,
+          img: "images/sh4.png",
+          desc: "A refreshing blend of mixed berries, yogurt, and honey. Perfect for a nutritious and delicious pick-me-up.",
+        },
+        {
+          id: 10,
+          title: "French Toast",
+          category: "breakfast",
+          price: 6.99,
+          img: "images/b4.png",
+          desc: "Golden-brown slices of bread soaked in a cinnamon-vanilla egg batter, served with maple syrup and fresh fruit. A sweet morning treat.",
         },
       ];
-
-export {datas}
+      
+      export { datas };
+      
